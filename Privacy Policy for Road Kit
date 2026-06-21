@@ -1,23 +1,64 @@
 Privacy Policy for Road Kit
-Effective date: 16.09.2025
-Batulin Tymur (“we”, “our”, “us”) built the Road Kit app as a tool for travelers who want to compare traffic rules
-and plan driving routes across supported countries. This Privacy Policy explains how the app handles user
-information.
+Effective date: 21.06.2026
+
+Batulin Tymur ("we", "our", "us") built the Road Kit app as a tool for travelers who want to compare traffic rules, plan driving routes, and get AI-powered assistance while driving across Europe. This Privacy Policy explains how the app handles user information.
+
+---
+
 Information Collection and Use
-- The app does not collect, store, or share any personal information such as names, emails, or contact details.
-- The app uses device location solely for the purpose of building driving routes. All processing happens locally
-on your device. Location data is never transmitted to external servers or third parties.
+
+- The app does not collect, store, or share personal information such as names, emails, or contact details.
+- The app uses device location solely for the purpose of building driving routes. Location data is processed locally on your device and is never transmitted to external servers.
+- Chat history and saved routes are stored locally on your device using Apple's SwiftData framework. This data never leaves your device unless you explicitly use the AI Assistant feature.
+
+---
+
+AI Assistant
+
+Road Kit includes an AI-powered assistant that allows you to ask questions about driving rules and take photos of road signs for explanation.
+
+When you use the AI Assistant:
+- Text messages you type and photos you choose to share are sent to Google's Gemini AI service via Firebase (Vertex AI) for processing.
+- This data is subject to Google's Privacy Policy (https://policies.google.com/privacy) and Firebase Terms of Service.
+- We do not store your AI conversations on our servers. Conversation history is kept locally on your device only.
+- Do not share sensitive personal information through the AI Assistant.
+- AI responses are generated automatically and may not always be accurate. The AI Assistant is an informational tool and does not constitute legal advice.
+
+---
+
+Camera
+
+If you use the camera feature to photograph a road sign, the image is sent to Google's Gemini AI service for analysis. Images are not stored by us or transmitted to any other third party.
+
+---
+
 Data Sharing
-- We do not share or sell any data to third parties.
-- The app does not include advertising or third-party analytics services.
+
+- We do not sell any user data to third parties.
+- The app does not include advertising networks or third-party analytics services.
+- The only external service used is Google Firebase (Gemini AI), solely for processing AI Assistant requests.
+
+---
+
 Offline Functionality
-Road Kit is designed to work offline. Your information remains entirely on your device.
-Children’s Privacy
-The app does not knowingly collect any personal information from children under 13. Since no data is collected,
-the app is safe for all age groups.
+
+Most features of Road Kit — including driving rules, fines, vignettes, road signs, and the police stop guide — work fully offline. The AI Assistant requires an active internet connection.
+
+---
+
+Children's Privacy
+
+The app does not knowingly collect personal information from children under 13. The AI Assistant should not be used by children without parental supervision, as it sends user input to an external AI service.
+
+---
+
 Changes to This Privacy Policy
-We may update this Privacy Policy from time to time. Any changes will be reflected in this section with a new
-“Effective date.”
+
+We may update this Privacy Policy from time to time. Any changes will be reflected in this document with a new "Effective date."
+
+---
+
 Contact Us
-If you have any questions or concerns about this Privacy Policy, please contact us via our Discord community:
-■ https://discord.gg/v5gF79J7
+
+If you have any questions or concerns about this Privacy Policy, please contact us:
+https://publish.mvphome.pro/site/2xscezzyvk9zkfdwhg6dxwa39yg8e18
